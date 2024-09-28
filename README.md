@@ -14,6 +14,8 @@ use a virtual environment:
     source myenv/bin/activate
     python3 -m pip install xyz
 
+    pip freeze > requirements.txt
+
 To execute:
 
 1. Clone the repo
@@ -21,4 +23,4 @@ To execute:
 3. Create virtual env and activate
    python3 -m venv myenv
    source myenv/bin/activate
-4.
+4. pip install -r requirements.txt
