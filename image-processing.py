@@ -9,7 +9,7 @@ from PIL import Image
 image = Image.open("plant.png")
 
 # Resize the image
-resized_image = image.resize((800, 600))
+resized_image = image.resize((300, 600))
 
 # Save the resized image
 resized_image.save("resized_image.png")
